@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using BuissnesLayer;
+using BusinessLayer.Interfaces;
 using DataLayer;
 using DataLayer.Entityes;
 using Microsoft.AspNetCore.Mvc;
@@ -15,18 +17,23 @@ namespace WebApplication1.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        private EFDBContext _context;
-
-        public HomeController(ILogger<HomeController> logger, EFDBContext context)
+      /*  private EFDBContext _context;
+        private IDirectorysRepository _dirRep;*/
+        private DataManager _dataManager;
+        public HomeController(ILogger<HomeController> logger,/* EFDBContext context, IDirectorysRepository dirRep, */DataManager dataManager)
         {
             _logger = logger;
-            _context = context;
+           /* _context = context;
+            _dirRep = dirRep;*/
+            _dataManager = dataManager;
         }
 
         public IActionResult Index()
         {
             HelloModel _model = new HelloModel() { HelloMessage = "I see you!" };
-            List<Directory> _dirs = _context.Directory.Include(x=>x.Materials).ToList();
+            //  List<Directory> _dirs = _context.Directory.Include(x=>x.Materials).ToList();
+            //List<Directory> _dirs = _dirRep.GetAllDirectorys().ToList();
+            List<Directory> _dirs = _dataManager.Directorys.GetAllDirectorys(true).ToList();
             return View(_dirs);
         }
 

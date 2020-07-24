@@ -70,3 +70,5 @@ C:\Users\Даниил\source\repos\1\WebApplication1\WebApplication1\bin\Debug\n
 C:\Users\Даниил\source\repos\1\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\Даниил\source\repos\1\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.csproj.CoreCompileInputs.cache
 C:\Users\Даниил\source\repos\1\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Даниил\source\repos\1\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\BusinessLayer.dll
+C:\Users\Даниил\source\repos\1\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\BusinessLayer.pdb
