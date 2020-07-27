@@ -1295,6 +1295,20 @@
         "runtime": {
           "bin/placeholder/DataLayer.dll": {}
         }
+      },
+      "PresentationLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "BusinessLayer": "1.0.0",
+          "DataLayer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PresentationLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PresentationLayer.dll": {}
+        }
       }
     }
   },
@@ -4970,13 +4984,19 @@
       "type": "project",
       "path": "../DataLayer/DataLayer.csproj",
       "msbuildProject": "../DataLayer/DataLayer.csproj"
+    },
+    "PresentationLayer/1.0.0": {
+      "type": "project",
+      "path": "../PresentationLayer/PresentationLayer.csproj",
+      "msbuildProject": "../PresentationLayer/PresentationLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "BusinessLayer >= 1.0.0",
       "DataLayer >= 1.0.0",
-      "Microsoft.EntityFrameworkCore.Design >= 3.1.6"
+      "Microsoft.EntityFrameworkCore.Design >= 3.1.6",
+      "PresentationLayer >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5017,6 +5037,9 @@
             },
             "C:\\Users\\Даниил\\source\\repos\\1\\WebApplication1\\DataLayer\\DataLayer.csproj": {
               "projectPath": "C:\\Users\\Даниил\\source\\repos\\1\\WebApplication1\\DataLayer\\DataLayer.csproj"
+            },
+            "C:\\Users\\Даниил\\source\\repos\\1\\WebApplication1\\PresentationLayer\\PresentationLayer.csproj": {
+              "projectPath": "C:\\Users\\Даниил\\source\\repos\\1\\WebApplication1\\PresentationLayer\\PresentationLayer.csproj"
             }
           }
         }

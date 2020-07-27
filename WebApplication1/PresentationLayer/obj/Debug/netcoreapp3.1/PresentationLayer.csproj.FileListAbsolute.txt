@@ -1,0 +1,14 @@
+C:\Users\Даниил\source\repos\1\WebApplication1\PresentationLayer\bin\Debug\netcoreapp3.1\PresentationLayer.deps.json
+C:\Users\Даниил\source\repos\1\WebApplication1\PresentationLayer\bin\Debug\netcoreapp3.1\PresentationLayer.dll
+C:\Users\Даниил\source\repos\1\WebApplication1\PresentationLayer\bin\Debug\netcoreapp3.1\PresentationLayer.pdb
+C:\Users\Даниил\source\repos\1\WebApplication1\PresentationLayer\bin\Debug\netcoreapp3.1\BusinessLayer.dll
+C:\Users\Даниил\source\repos\1\WebApplication1\PresentationLayer\bin\Debug\netcoreapp3.1\DataLayer.dll
+C:\Users\Даниил\source\repos\1\WebApplication1\PresentationLayer\bin\Debug\netcoreapp3.1\BusinessLayer.pdb
+C:\Users\Даниил\source\repos\1\WebApplication1\PresentationLayer\bin\Debug\netcoreapp3.1\DataLayer.pdb
+C:\Users\Даниил\source\repos\1\WebApplication1\PresentationLayer\obj\Debug\netcoreapp3.1\PresentationLayer.csprojAssemblyReference.cache
+C:\Users\Даниил\source\repos\1\WebApplication1\PresentationLayer\obj\Debug\netcoreapp3.1\PresentationLayer.AssemblyInfoInputs.cache
+C:\Users\Даниил\source\repos\1\WebApplication1\PresentationLayer\obj\Debug\netcoreapp3.1\PresentationLayer.AssemblyInfo.cs
+C:\Users\Даниил\source\repos\1\WebApplication1\PresentationLayer\obj\Debug\netcoreapp3.1\PresentationLayer.csproj.CoreCompileInputs.cache
+C:\Users\Даниил\source\repos\1\WebApplication1\PresentationLayer\obj\Debug\netcoreapp3.1\PresentationLayer.csproj.CopyComplete
+C:\Users\Даниил\source\repos\1\WebApplication1\PresentationLayer\obj\Debug\netcoreapp3.1\PresentationLayer.dll
+C:\Users\Даниил\source\repos\1\WebApplication1\PresentationLayer\obj\Debug\netcoreapp3.1\PresentationLayer.pdb

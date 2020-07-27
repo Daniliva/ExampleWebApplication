@@ -72,3 +72,6 @@ C:\Users\Даниил\source\repos\1\WebApplication1\WebApplication1\obj\Debug\n
 C:\Users\Даниил\source\repos\1\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Даниил\source\repos\1\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\BusinessLayer.dll
 C:\Users\Даниил\source\repos\1\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\BusinessLayer.pdb
+C:\Users\Даниил\source\repos\1\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\PresentationLayer.dll
+C:\Users\Даниил\source\repos\1\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\PresentationLayer.pdb
+C:\Users\Даниил\source\repos\1\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Page\Index.cshtml.g.cs
