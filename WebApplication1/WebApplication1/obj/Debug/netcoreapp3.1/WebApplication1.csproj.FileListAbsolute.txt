@@ -75,3 +75,4 @@ C:\Users\Даниил\source\repos\1\WebApplication1\WebApplication1\bin\Debug\n
 C:\Users\Даниил\source\repos\1\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\PresentationLayer.dll
 C:\Users\Даниил\source\repos\1\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\PresentationLayer.pdb
 C:\Users\Даниил\source\repos\1\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Page\Index.cshtml.g.cs
+C:\Users\Даниил\source\repos\1\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Page\PageEditor.cshtml.g.cs

@@ -10,6 +10,8 @@ using DataLayer.Entityes;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
+using PresentationLayer;
+using PresentationLayer.Models;
 using WebApplication1.Models;
 
 namespace WebApplication1.Controllers
@@ -17,15 +19,17 @@ namespace WebApplication1.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-      /*  private EFDBContext _context;
-        private IDirectorysRepository _dirRep;*/
-        private DataManager _dataManager;
+        /*  private EFDBContext _context;
+          private IDirectorysRepository _dirRep;*/
+        private DataManager _datamanager;
+        private ServicesManager _servicesmanager;
         public HomeController(ILogger<HomeController> logger,/* EFDBContext context, IDirectorysRepository dirRep, */DataManager dataManager)
         {
             _logger = logger;
-           /* _context = context;
-            _dirRep = dirRep;*/
-            _dataManager = dataManager;
+            /* _context = context;
+             _dirRep = dirRep;*/
+            _datamanager = dataManager;
+            _servicesmanager = new ServicesManager(_datamanager);
         }
 
         public IActionResult Index()
@@ -33,7 +37,8 @@ namespace WebApplication1.Controllers
             HelloModel _model = new HelloModel() { HelloMessage = "I see you!" };
             //  List<Directory> _dirs = _context.Directory.Include(x=>x.Materials).ToList();
             //List<Directory> _dirs = _dirRep.GetAllDirectorys().ToList();
-            List<Directory> _dirs = _dataManager.Directorys.GetAllDirectorys(true).ToList();
+            List<DirectoryViewModel> _dirs = _servicesmanager.Directorys.GetDirectoryesList();
+
             return View(_dirs);
         }
 
